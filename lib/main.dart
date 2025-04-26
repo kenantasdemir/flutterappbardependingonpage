@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// 🧠 State Yönetimi
+
 class NavigationProvider extends ChangeNotifier {
   int _currentIndex = 0;
   int get currentIndex => _currentIndex;
@@ -33,7 +33,7 @@ class NavigationProvider extends ChangeNotifier {
   }
 }
 
-// 📱 Ana Sayfa
+
 class HomePage extends StatelessWidget {
    HomePage({super.key});
 
@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// 📄 Sayfa 1
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
   @override
@@ -77,7 +77,7 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-// 📄 Sayfa 2
+
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
   @override
@@ -86,7 +86,7 @@ class SearchScreen extends StatelessWidget {
   }
 }
 
-// 📄 Sayfa 3
+
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
   @override
